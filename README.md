@@ -1,2 +1,2 @@
 # portfolio_project
-Portfolio Project for Udacity 
+Portfolio Project 
