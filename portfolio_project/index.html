@@ -8,17 +8,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Melanie Kim || Front-End Ninja</title>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-
     <link href="css/style.css" rel="stylesheet">
+</head>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-</head>
-
 <body>
-
-    <header class="container">
-        <div class="row">
+<!--Row for logo and name-->
+    <div class="container">
+        <header class="row">
             <div class="col-md-6">
                 <img class="title-logo" src="images/mk.png" alt="MK logo">
             </div>
@@ -26,10 +23,11 @@
                 <h1 class="title-super text-thin">Melanie Kim</h1>
                 <h3>Front-end Ninja</h3>
             </div>
-        </div>
-    </header>
+            </header>
 
-    <main class="row">
+<!---Row for banner--->
+   <main class="main">
+    <div class="row">
         <div class="col-md-4">
             <img class="img-responsive" src="images/about.jpg" alt="Workspace Table">
         </div>
@@ -40,13 +38,14 @@
             <p> I like making websites and applications look pretty and functional. My skill sets include HTML, CSS, Javascript, and is always growing!</p>
             <p>Check out my work and thanks for visiting!</p>
             <p class="indent">Best,</p>
-            <p class="indent">Melanie </p>
+            <p class="indent">Melanie</p>
         </section>
-
         <div class="col-md-4">
             <img class="img-responsive" src="images/headshot.jpg" alt="Headshot of Melanie">
         </div>
+    </div>
 
+ <!---Row for featured work--->
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-muted">Featured Work</h2>
@@ -59,20 +58,19 @@
                 <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
             </article>
 
-            <article class="col-md-4">
-                <img class="img-responsive" src="images/times.png" alt="Image of News Website" data-toggle="modal" data-target="#project2">
-                <h3 class="text-center">Mobile Responsive Website</h3>
-                <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
-            </article>
+        <article class="col-md-4">
+            <img class="img-responsive" src="images/times.png" alt="Image of News Website" data-toggle="modal" data-target="#project2">
+            <h3 class="text-center">Mobile Responsive Website</h3>
+            <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+        </article>
 
-            <article class="col-md-4">
-                <img class="img-responsive" src="images/cards.png" alt="Image of CSS Project" data-toggle="modal" data-target="#project3">
-                <h3 class="text-center">CSS Animal Trading Card</h3>
-                <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
-            </article>
-
-        </div>
-
+        <article class="col-md-4">
+            <img class="img-responsive" src="images/cards.png" alt="Image of CSS Project" data-toggle="modal" data-target="#project3">
+            <h3 class="text-center">CSS Animal Trading Card</h3>
+            <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+        </article>
+    </div>
+<!---footer row---->
         <footer class="footer">
             <div class="row">
                 <div class="col-md-12">
@@ -80,7 +78,8 @@
                 </div>
             </div>
         </footer>
-    </main>
+     </main>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
