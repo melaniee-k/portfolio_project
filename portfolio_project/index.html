@@ -9,9 +9,10 @@
     <title>Melanie Kim || Front-End Ninja</title>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-</head>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+</head>
+
 <body>
 
     <div class="container">
@@ -23,70 +24,68 @@
                 <h1 class="title-super text-thin">Melanie Kim</h1>
                 <h3>Front-end Ninja</h3>
             </div>
-            </header>
+        </header>
 
-
-   <main class="main">
-    <div class="row">
-        <div class="col-md-4">
-            <img class="img-responsive" src="images/about.jpg" alt="Workspace Table">
-        </div>
-        <section class="col-md-4">
-            <h2 class="text-muted">About Me</h2>
-            <p>Hi there, my name is Melanie and I'm a front-end developer in NYC. I discovered my passion for coding after working for a tech startup. I observed all the neat things mu co-workers would build, and thought that I wanted to create cool things too! </p>
-            <p>And now here I am!</p>
-            <p> I like making websites and applications look pretty and functional. My skill sets include HTML, CSS, Javascript, and is always growing!</p>
-            <p>Check out my work and thanks for visiting!</p>
-            <p class="indent">Best,</p>
-            <p class="indent">Melanie</p>
+        <section class="row">
+            <div class="col-md-4">
+                <img class="img-responsive" src="images/about.jpg" alt="Workspace Table">
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-muted">About Me</h2>
+                <p>Hi there, my name is Melanie and I'm a front-end developer in NYC. I discovered my passion for coding after working for a tech startup. I observed all the neat things mu co-workers would build, and thought that I wanted to create cool things too! </p>
+                <p>And now here I am!</p>
+                <p> I like making websites and applications look pretty and functional. My skill sets include HTML, CSS, Javascript, and is always growing!</p>
+                <p>Check out my work and thanks for visiting!</p>
+                <p class="indent">Best,</p>
+                <p class="indent">Melanie</p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive center-block" src="images/headshot.jpg" alt="Headshot of Melanie">
+            </div>
         </section>
-        <div class="col-md-4">
-            <img class="img-responsive" src="images/headshot.jpg" alt="Headshot of Melanie">
-        </div>
-    </div>
 
- 
-        <div class="row">
+
+        <section class="row">
             <div class="col-md-12">
                 <h2 class="text-muted">Featured Work</h2>
             </div>
-        </div>
-        <div class="row">
+        </section>
+
+        <section class="row">
             <article class="col-md-4">
                 <img class="img-responsive" src="images/blog.png" alt="Image of Blog" data-toggle="modal" data-target="#project1">
                 <h3 class="text-center">Responsive Blog</h3>
                 <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
             </article>
 
-        <article class="col-md-4">
-            <img class="img-responsive" src="images/times.png" alt="Image of News Website" data-toggle="modal" data-target="#project2">
-            <h3 class="text-center">Mobile Responsive Website</h3>
-            <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
-        </article>
+            <article class="col-md-4">
+                <img class="img-responsive" src="images/times.png" alt="Image of News Website" data-toggle="modal" data-target="#project2">
+                <h3 class="text-center">Mobile Responsive Website</h3>
+                <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+            </article>
 
-        <article class="col-md-4">
-            <img class="img-responsive" src="images/cards.png" alt="Image of CSS Project" data-toggle="modal" data-target="#project3">
-            <h3 class="text-center">CSS Animal Trading Card</h3>
-            <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
-        </article>
-    </div>
+            <article class="col-md-4">
+                <img class="img-responsive center-block" src="images/cards.png" alt="Image of CSS Project" data-toggle="modal" data-target="#project3">
+                <h3 class="text-center">CSS Animal Trading Card</h3>
+                <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+            </article>
+        </section>
 
         <footer class="footer">
-            <div class="row">
+            <section class="row">
                 <div class="col-md-12">
                     <p class="text-muted text-center">Melanie Kim &copy; 2017</p>
                 </div>
-            </div>
+            </section>
         </footer>
-     </main>
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="responsive-blog-title" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Responsive Blog</h4>
+                    <h4 class="modal-title" id="responsive-blog-title">Responsive Blog</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="images/blog_two.png" alt="Image of Fruit Bowl"> This was my first respnosive blog built with HTML and CSS.
@@ -98,11 +97,11 @@
         </div>
     </div>
 
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="mobile-reponsive-site" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Mobile Responsive Site</h4>
+                    <h4 class="modal-title" id="mobile-reponsive-site">Mobile Responsive Site</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="images/times_two.png" alt="Image of News Website"> This was my second project in this class. I learned a lot about HTML and CSS.
@@ -114,11 +113,11 @@
         </div>
     </div>
 
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="animal-trading-card" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">CSS Animal Trading Card</h4>
+                    <h4 class="modal-title" id="animal-trading-card">CSS Animal Trading Card</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="images/cards_two.png" alt="Image of Quokka"> This a pure CSS project. I built an animal trading card of a cute animal using CSS techniques.
